@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  title = 'bookswish1';
+  appname = 'app works!';
 
   filter: 'all' | 'active' | 'done' = 'all';
   
