@@ -1,14 +1,6 @@
 <div class="main">
   <h1>My Wishlisted Books List</h1>
-  <input
-    #newBook
-    placeholder="Add more books"
-    (keyup.enter)="addBook(newBook.value);"
-    class="lg-text-input"
-    id="addBookInput"
-  />
-
-  <button class="btn-primary" (click)="addBook(newBook.value)">Add</button>
+  
 
   <div class="btn-wrapper">
     
@@ -37,4 +29,15 @@
       <book-app  (remove)="remove(book)" [book]="book"></book-app>
     </li>
   </ul>
+  <input
+    #newBook
+    placeholder="Add more books"
+    (keyup.enter)="addBook(newBook.value);"
+    class="lg-text-input"
+    id="addBookInput"
+  />
+
+  <button class="btn-primary" (click)="addBook(newBook.value)">Add</button>
 </div>
+
+
