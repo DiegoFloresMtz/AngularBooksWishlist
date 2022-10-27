@@ -1,0 +1,7 @@
+<div class="book">
+
+  <input [id]="book.title" type="checkbox" (change)="book.done = !book.done" [checked]="book.done"/>
+  <label [for]="book.title">{{book.title}}</label>
+
+
+</div>
