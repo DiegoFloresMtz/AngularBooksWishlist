@@ -21,7 +21,7 @@
 
   </div>
 
-  <h2>{{books.length}} <span *ngIf="books.length === 1; else elseBlock">book</span>
+  <h2>{{books?.length}} <span *ngIf="books?.length === 1; else elseBlock">book</span>
   <ng-template #elseBlock>books</ng-template></h2>
 
   <ul>
